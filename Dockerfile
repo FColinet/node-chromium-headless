@@ -46,6 +46,4 @@ RUN apk add --no-cache \
 
 RUN rm -rf /var/lib/apt/lists/* /var/cache/apk/* /usr/share/man /tmp/*
 
-USER chrome
-
 ENTRYPOINT ["tini", "--"]
